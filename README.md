@@ -1,9 +1,9 @@
 
 
-<h1 align="center">{# Daily-Tasks-Expo}</h1>
+<h1 align="center"># Daily Task App with React-Native and Expo</h1>
 
 <div align="center">
-   This is the most simple daily tasks app
+   This is the most simple daily tasks app build with react-native and expo
 </div>
 
 
