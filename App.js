@@ -83,10 +83,7 @@ export default function App() {
         </View>
       </ScrollView>
 
-      <KeyboardAvoidingView
-        behavior={Platform.OS === "ios" ? "padding" : "height"}
-        style={styles.writeTaskWrapper}
-      >
+      <KeyboardAvoidingView style={styles.writeTaskWrapper}>
         <TextInput
           style={styles.input}
           placeholder={"Write a task"}
