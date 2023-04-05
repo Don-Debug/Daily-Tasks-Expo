@@ -122,15 +122,19 @@ const styles = StyleSheet.create({
   },
   items: {
     marginTop: 30,
+    paddingBottom: 100,
   },
   writeTaskWrapper: {
     position: "absolute",
-    bottom: 60,
+    bottom: 0,
     width: "100%",
     flexDirection: "row",
     justifyContent: "center",
     gap: 30,
     alignItems: "center",
+    backgroundColor: "#151515",
+    paddingBottom: 40,
+    paddingTop: 20,
   },
   input: {
     paddingVertical: 15,
